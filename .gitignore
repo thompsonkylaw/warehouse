@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Env files（唔入 git；本地唔需要 database，Railway 上面先有 Postgres）
+.env
+.env.*
+!.env.example
